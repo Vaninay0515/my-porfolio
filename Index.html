@@ -1,36 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Vanessa Eam Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yusuke Akimoto Portfolio</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      background-color: #fff;
-      color: #333;
+      background-color: #121212;
+      color: #f5f5f5;
     }
     header {
-      background-color: #6a0dad;
+      background-color: #1f1b2e;
       color: white;
-      padding: 40px 20px;
+      padding: 50px 20px;
       text-align: center;
     }
-    header h1 {
-      margin: 0;
-      font-size: 3em;
-    }
     nav {
-      background-color: #333;
+      background-color: #2a2a2a;
       padding: 10px;
       text-align: center;
     }
     nav a {
-      color: white;
+      color: #ccc;
       margin: 0 15px;
       text-decoration: none;
       font-weight: bold;
+    }
+    nav a:hover {
+      color: #ffffff;
     }
     section {
       padding: 40px 20px;
@@ -40,32 +39,49 @@
     .cta-button {
       background-color: #6a0dad;
       color: white;
-      padding: 15px 30px;
+      padding: 12px 25px;
       text-decoration: none;
       font-weight: bold;
       border-radius: 5px;
+      display: inline-block;
+      margin-top: 20px;
     }
     .skills, .services {
       display: flex;
-      justify-content: space-around;
       flex-wrap: wrap;
+      justify-content: space-around;
     }
     .card {
-      background-color: #f9f9f9;
+      background-color: #1e1e1e;
       padding: 20px;
-      margin: 10px;
-      width: 30%;
+      margin: 15px;
+      width: 28%;
       border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
     }
     .card h3 {
-      color: #6a0dad;
+      color: #bb86fc;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      background-color: #2a2a2a;
+      border: none;
+      border-radius: 5px;
+      color: white;
+    }
+    input[type="submit"] {
+      background-color: #6a0dad;
+      cursor: pointer;
+      font-weight: bold;
     }
     footer {
-      background-color: #222;
-      color: white;
+      background-color: #1a1a1a;
+      color: #ccc;
       text-align: center;
       padding: 20px 10px;
+      margin-top: 40px;
     }
     @media (max-width: 768px) {
       .card {
@@ -78,7 +94,7 @@
 
   <header>
     <h1>Vanessa Eam</h1>
-    <p>Passionate BSIT Student | Designer </p>
+    <p>BSIT Student | Web Designer </p>
     <a href="#contact" class="cta-button">Hire Me</a>
   </header>
 
@@ -92,59 +108,63 @@
 
   <section id="about">
     <h2>About Me</h2>
-    <p>Hello! I'm Vanessa Eam, a BSIT college student with a passion for technology, design, and ethical hacking. I thrive on solving problems and building visually stunning websites and systems.</p>
+    <p>I’m a college student passionate about IT, design, and security. I enjoy building websites, solving tech problems, and improving user experiences with technology.</p>
   </section>
 
   <section id="experience">
-    <h2>Experience & Skills</h2>
-    <p>Over the past few years, I’ve gained hands-on experience in IT support, front-end development, and UI/UX design. I’ve built personal and academic projects that showcase my range of technical and creative skills.</p>
+    <h2>Experience</h2>
+    <p>Worked on school projects, designed UI/UX interfaces, and assisted with IT support roles involving troubleshooting, networking, and system maintenance.</p>
   </section>
 
   <section id="skills">
-    <h2>My Skills</h2>
+    <h2>Skills</h2>
     <div class="skills">
       <div class="card">
         <h3>Web Design</h3>
-        <p>Modern, responsive, and aesthetic web designs using HTML, CSS, and JavaScript.</p>
+        <p>Responsive websites using HTML, CSS, JavaScript.</p>
       </div>
       <div class="card">
         <h3>IT Support</h3>
-        <p>Troubleshooting hardware/software issues, network setup, and system optimization.</p>
+        <p>Computer troubleshooting, formatting, software installs.</p>
       </div>
       <div class="card">
-        <h3>Programming</h3>
-        <p>Comfortable with JavaScript, Python, and C++ for a variety of development tasks.</p>
+        <h3>Networking</h3>
+        <p>Basic LAN/WAN setup and configuration.</p>
       </div>
     </div>
   </section>
 
   <section id="services">
-    <h2>Services Offered</h2>
+    <h2>Services</h2>
     <div class="services">
       <div class="card">
-        <h3>IT Consultancy</h3>
-        <p>Offering expert advice for system setup, network planning, and digital security.</p>
-      </div>
-      <div class="card">
         <h3>Website Design</h3>
-        <p>Creating clean, user-friendly, and mobile-responsive websites for personal or business use.</p>
+        <p>Clean and user-friendly web design for personal and business use.</p>
       </div>
       <div class="card">
-        <h3>Technical Support</h3>
-        <p>Providing solutions for software, hardware, and network-related issues.</p>
+        <h3>IT Consultancy</h3>
+        <p>Advice on hardware, software, and system upgrades.</p>
+      </div>
+      <div class="card">
+        <h3>Graphic Design</h3>
+        <p>Simple logos, posters, and digital creatives using Canva and Photoshop.</p>
       </div>
     </div>
   </section>
 
   <section id="contact">
-    <h2>Contact</h2>
-    <p>Feel free to reach out for project inquiries or collaborations!</p>
-    <p><strong>Email:</strong> yusuke@example.com</p>
-    <p><strong>Phone:</strong> 0912-345-6789</p>
+    <h2>Contact Me</h2>
+    <form action="https://formsubmit.co/ibajanvanessa7@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <input type="submit" value="Send Message" />
+    </form>
+    <p>Or reach me directly at: <strong>0912-345-6789</strong></p>
   </section>
 
   <footer>
-    <p>&copy; 2025 Yusuke Akimoto. All Rights Reserved.</p>
+    <p>&copy; 2025 Vanessa Eam. All rights reserved.</p>
   </footer>
 
 </body>
